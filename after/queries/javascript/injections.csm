@@ -1,0 +1,5 @@
+(call_expression
+  function: (identifier) @function_name (#eq? @function_name "styled")
+  arguments: (template_string) @injection.content
+  (#set! injection.language "css"))
+
